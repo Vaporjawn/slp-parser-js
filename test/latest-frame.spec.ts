@@ -13,7 +13,7 @@ const MAX_ROLLBACK_FRAMES = 7;
 
 describe("when reading last finalised frame", () => {
   it("should never decrease", async () => {
-    const testFile = "slp/finalizedFrame.slp";
+    const testFile = "slp/latestFrame.slp";
     const stream = new SlpStream({
       mode: SlpStreamMode.MANUAL,
     });
